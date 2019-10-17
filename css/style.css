@@ -10,10 +10,11 @@ body, section, div, article, aside, h1, h2, h3, h4, h5, h6, p{
   margin: 0;
 }
 /*-- Document Styles --*/
-.footer{
+footer{
   background-color: #333;
   color: #DDD;
   text-align: center;
+  padding: 1em;
 }
 nav{
   display: flex;
@@ -23,9 +24,14 @@ nav{
 }
 nav a{
   color: #DDD;
+  text-decoration: none
 }
-nav hover{
-
+nav a:hover {
+  color: #F0F0F0;
+  text-decoration: underline;
+}
+nav a.active {
+  color: #F0F0F0;
 }
 .slideshow{
 background-color: #CCC;
