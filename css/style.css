@@ -21,10 +21,29 @@ nav{
   justify-content: space-between;
   background-color: #333;
   padding: 1em;
+  flex-direction: column;
+}
+@media screen and (min-width: 767px) {
+  nav {flex-direction: row;}
 }
 nav a{
   color: #DDD;
-  text-decoration: none
+  text-decoration: none;
+}
+.trigram {
+  font-size: 1.75em;
+  display: none;
+}
+@media screen and (max-width: 767px){
+  .topnav a {display: none;}
+  .topnav a.trigram {display: inherit; align-self: flex-end;}
+}
+@media screen and (max-width: 767px) {
+  .topnav.responsive {align-items: center;}
+  .topnav.responsive a {display:inherit;}
+  .topnav.responsive a.trigram {visibility: hidden; position: absolute; right: 3%; top: 2%;}
+  .trigram {display:inherit;}
+  .topnav.responsive a.trigram::after {content: '\000D7'; visibility:visible; text-indent: -.5em;}
 }
 nav a:hover {
   color: #F0F0F0;
