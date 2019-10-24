@@ -52,11 +52,6 @@ nav a:hover {
 nav a.active {
   color: #F0F0F0;
 }
-.slideshow{
-background-color: #CCC;
-width: 100%;
-height: 400px;
-}
 .one .thumb{
   background-image: url('../img/dog.jpg');
   background-position: center center;
@@ -82,4 +77,48 @@ height: 400px;
 }
 .card-content{
   padding: 1em;
+}
+/* slide show stuff */
+.slideshow{
+width: 100%;
+margin-bottom: 1em;
+padding: 1em;
+}
+.caption{
+  text-align: center;
+}
+.slideshow img{
+  width: 100%;
+  padding: .5em;
+}
+.slideshow-wrap{
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+}
+.prev, .next{
+  position: absolute;
+  top: 50%;
+  width: auto;
+  color: #DDD;
+}
+.next{
+  right: 0;
+}
+.prev:hover, .next:hover{
+  background: rgba(0, 0, 0, 0.5);
+}
+.dot-wrap{
+  text-align: center;
+}
+.dot{
+  width: 25%;
+  height: 15px;
+  display: inline-block;
+}
+.dot img{
+  width: 100%;
+}
+.dot.active{
+
 }

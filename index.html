@@ -18,7 +18,34 @@
       <a href="javascript:void(0);" class="nav-link trigram" onclick="navToggle()">&#9776;</a>
     </nav>
     <section class="slideshow">
-      <h1>Splash Text</h1>
+      <div class ="slideshow-wrap">
+          <div class="slide fade">
+            <p class="caption"> Lorem ipsuim dolot sit SLIDE ONE </p>
+            <img src="https://picsum.photos/1280/449/?image=12" alt="slide one">
+      </div> <!--end slide-->
+      <div class="slide fade">
+            <p class="caption"> Lorem ipsuim dolot sit SLIDE TWO </p>
+            <img src="https://picsum.photos/1280/449/?image=13" alt="slide one">
+      </div> <!--end slide-->
+      <div class="slide fade">
+            <p class="caption"> Lorem ipsuim dolot sit SLIDE THREE </p>
+            <img src="https://picsum.photos/1280/449/?image=14" alt="slide one">
+      </div> <!--end slide-->
+      <div class="slide fade">
+            <p class="caption"> Lorem ipsuim dolot sit SLIDE FOUR </p>
+            <img src="https://picsum.photos/1280/449/?image=15" alt="slide one">
+      </div> <!--end slide-->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div> <!--ends slideshow-wrap-->
+
+      <div class="dot-wrap">
+        <span class="dot" onclick="currentSlide(1)"><img src="https://picsum.photos/1280/449/?image=12" alt="slide one"></span>
+        <span class="dot" onclick="currentSlide(2)"><img src="https://picsum.photos/1280/449/?image=13" alt="slide one"></span>
+        <span class="dot" onclick="currentSlide(3)"><img src="https://picsum.photos/1280/449/?image=14" alt="slide one"></span>
+        <span class="dot" onclick="currentSlide(4)"><img src="https://picsum.photos/1280/449/?image=15" alt="slide one"></span>
+      </div>
+
     </section>
     <article class="grid-container">
       <div class="card one">
