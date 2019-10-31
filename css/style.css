@@ -78,6 +78,10 @@ nav a.active {
 .card-content{
   padding: 1em;
 }
+.card:hover{
+    transform: scale(1.02);
+    transition: all 200ms ease-in-out;
+}
 /* slide show stuff */
 .slideshow{
 width: 100%;
@@ -115,14 +119,15 @@ text-align: center;
   width: 15%;
   height: 15px;
   display: inline-block;
+  opacity: 0.7;
 }
 .dot img{
   width: 100%;
 }
 .dot:hover{
-opacity: 0.7;
-transform: scale(5px);
+opacity: 1;
 }
+
 /* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 5px;

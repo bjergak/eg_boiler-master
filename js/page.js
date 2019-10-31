@@ -39,7 +39,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-//FADE OVER IMAGES 
+//FADE OVER IMAGES
 // Get the modal
 var modal = document.getElementById("myModal");
 
