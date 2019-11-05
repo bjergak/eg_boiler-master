@@ -53,7 +53,7 @@ nav a.active {
   color: #F0F0F0;
 }
 .one .thumb{
-  background-image: url('../img/dog.jpg');
+  background-image: url(https://picsum.photos/id/1027/200/300);
   background-position: center center;
   background-size: cover;
   padding-bottom: 56%;
