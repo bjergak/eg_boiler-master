@@ -58,6 +58,72 @@ nav a.active {
   background-size: cover;
   padding-bottom: 56%;
 }
+.two .thumb2{
+  background-image: url(https://picsum.photos/id/1042/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.three .thumb3{
+  background-image: url(https://picsum.photos/id/1054/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.four .thumb4{
+  background-image: url(https://picsum.photos/id/1080/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.five .thumb5{
+  background-image: url(https://picsum.photos/id/133/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.six .thumb6{
+  background-image: url(https://picsum.photos/id/135/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.seven .thumb7{
+  background-image: url(https://picsum.photos/id/146/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.eight .thumb8{
+  background-image: url(https://picsum.photos/id/154/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.nine .thumb9{
+  background-image: url(https://picsum.photos/id/183/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.ten .thumb10{
+  background-image: url(https://picsum.photos/id/40/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.eleven .thumb11{
+  background-image: url(https://picsum.photos/id/257/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
+.twelve .thumb12{
+  background-image: url(https://picsum.photos/id/391/200/300);
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 56%;
+}
 .grid-container{
   display: grid;
   grid-gap: 1em;
