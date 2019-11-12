@@ -5,13 +5,19 @@
 *{
   box-sizing: border-box;
 }
+body{
+  background-color: #03191E;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve {
+background-color: #2E294E;
+}
 body, section, div, article, aside, h1, h2, h3, h4, h5, h6, p{
   padding: 0;
   margin: 0;
 }
 /*-- Document Styles --*/
 footer{
-  background-color: #333;
+  background-color: #29524A;
   color: #DDD;
   text-align: center;
   padding: 1em;
@@ -19,7 +25,7 @@ footer{
 nav{
   display: flex;
   justify-content: space-between;
-  background-color: #333;
+  background-color: #29524A;
   padding: 1em;
   flex-direction: column;
 }
@@ -27,7 +33,7 @@ nav{
   nav {flex-direction: row;}
 }
 nav a{
-  color: #DDD;
+  color: #E0E2DB;
   text-decoration: none;
 }
 .trigram {
@@ -46,7 +52,7 @@ nav a{
   .topnav.responsive a.trigram::after {content: '\000D7'; visibility:visible; text-indent: -.5em;}
 }
 nav a:hover {
-  color: #F0F0F0;
+  color: #EF626C;
   text-decoration: underline;
 }
 nav a.active {
@@ -176,13 +182,14 @@ padding: 1em;
   position: absolute;
   top: 50%;
   width: auto;
-  color: #DDD;
+  color: #E0E2DB;
 }
 .next{
   right: 0;
 }
 .prev:hover, .next:hover{
   background: rgba(0, 0, 0, 0.5);
+  color: #EF626C;
 }
 .dot-wrap{
 text-align: center;
