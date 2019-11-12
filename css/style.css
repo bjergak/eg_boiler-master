@@ -52,6 +52,12 @@ nav a:hover {
 nav a.active {
   color: #F0F0F0;
 }
+.caption{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+}
 .one .thumb{
   background-image: url(https://picsum.photos/id/1027/200/300);
   background-position: center center;
