@@ -69,7 +69,7 @@ nav a.active {
 }
 .more{
 background-color: #29524A;
-border: none;
+border: 2px solid #E0E2DB;
 border-radius: 5px;
 font-family: 'Dosis', sans-serif;
 font-size: 16px;
@@ -79,6 +79,7 @@ padding: 10px 30px;
 .more:hover{
   text-decoration: underline;
   color: #EF626C;
+  border: 2px solid #EF626C;
 }
 h3{
 font-family: 'Knewave', cursive;
