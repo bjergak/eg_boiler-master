@@ -41,6 +41,9 @@ function showSlides(n) {
 
 //FADE OVER IMAGES
 
+
+
+
 //modal what-Not
 // Get the modal
 var thumb = document.getElementById("myModal");
