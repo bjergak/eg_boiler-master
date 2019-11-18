@@ -41,15 +41,27 @@ function showSlides(n) {
 
 //FADE OVER IMAGES
 
-//Modal Functions -- added by Eric
-// Image modal functions - Requires jQuery!!!
-$(".button").on("click", function() { // when item with class of button is clicked, fire function
-  var modal = $(this).data("modal"); // sets modal var equal to data attribute
-  $(modal).show(); // opens up modal (much code hidden here by jQuery)
-});
-$(".modal").on("click", function(e) { // sets up click function
-  var className = e.target.className; // var className set to event target
-  if(className === "modal" || className === "close"){ // if conditions are met...
-    $(this).closest(".modal").hide(); // then hide the modal
-  } // closes if-statement
-}); // closes function
+
+
+
+//modal what-Not
+// Get the modal
+var thumb = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  thumb.style.display = "none";
+}
