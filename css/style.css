@@ -305,15 +305,14 @@ opacity: 1;
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #f1f1f1;
+  color: #E0E2DB;
   font-size: 40px;
   font-weight: bold;
-  transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: #EF626C;
   text-decoration: none;
   cursor: pointer;
 }
