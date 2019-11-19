@@ -41,6 +41,8 @@ function showSlides(n) {
 
 //FADE OVER IMAGES
 
+
+
 //Modal Functions -- added by Eric
 // Image modal functions - Requires jQuery!!!
 $(".button").on("click", function() { // when item with class of button is clicked, fire function
